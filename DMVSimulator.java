@@ -27,7 +27,7 @@ public class DMVSimulator {
 
         do{
             if (counter > 200){
-                counter = 100;
+                counter = 0;
             }
             System.out.println("Now serving number " + counter);
             counter ++;
