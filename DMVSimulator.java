@@ -37,7 +37,6 @@ public class DMVSimulator {
 
         if(counter == numb){
             System.out.println("Its your turn " + numb);
-            System.out.println("Yes you required documents for this service!");
 
         }
 
