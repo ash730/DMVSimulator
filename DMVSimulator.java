@@ -20,13 +20,13 @@ public class DMVSimulator {
         System.out.println("Hello, Welcome to the Git DMV. Please take a number. ");
 
         Random rand = new Random();
-        int numb = rand.nextInt(101);
+        int numb = rand.nextInt(201);
         int counter = numb + 1 ;
 
         System.out.println("\nYour number is " + numb + ". \nPlease take a seat and wait for your number to be called." );
 
         do{
-            if (counter > 100){
+            if (counter > 200){
                 counter = 0;
             }
             System.out.println("Now serving number " + counter);
