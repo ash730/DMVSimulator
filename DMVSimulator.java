@@ -31,7 +31,7 @@ public class DMVSimulator {
                 System.out.println("Wrong documentation DUDE. ");
             }
             System.out.println("Now serving number " + counter);
-            System.out.println("Wrong documentation DUDE. ");
+            System.out.println("\nWrong documentation DUDE. ");
             counter ++;
         } while (counter != numb);
 
