@@ -28,14 +28,15 @@ public class DMVSimulator {
         do{
             if (counter > 200){
                 counter = 0;
+                System.out.println("Wrong documentation DUDE. ");
             }
             System.out.println("Now serving number " + counter);
+            System.out.println("\nWrong documentation DUDE. ");
             counter ++;
         } while (counter != numb);
 
         if(counter == numb){
             System.out.println("Its your turn " + numb);
-            System.out.println("Sorry you don't have the required documents for this service. \nGet away from my desk you idiot wasting my time and everyone else's. \nHave a nice day!");
 
         }
 
