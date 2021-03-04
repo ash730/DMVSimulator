@@ -28,8 +28,10 @@ public class DMVSimulator {
         do{
             if (counter > 200){
                 counter = 0;
+                System.out.println("Wrong documentation DUDE. ");
             }
             System.out.println("Now serving number " + counter);
+            System.out.println("Wrong documentation DUDE. ");
             counter ++;
         } while (counter != numb);
 
